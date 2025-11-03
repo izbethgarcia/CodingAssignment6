@@ -1,35 +1,17 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content=" Lizbeth Garcia">
- </head>
-<body>  
-  <p>id="gameResults>Display results</p>  
-<script>
-    //Welcome banner and ask for players name//
-  let playerName = prompt('Welcome to Bear Hunter Ninja! Please enter your name to get started:  ');
-  //Greet Player with their name//
-  let greetPlayer = `Hi ${playerName} Let's Play!`;
-  alert(greetPlayer);
-  //Ask players choice//
-  let playersChoice = prompt('Who are you: bear, Ninja, or Hunter?')
-  //Computers choice//
-  let computersChoice = 'Ninja' 
-  // Personalized game results//
-  const theResults = `${playerName}, You picked ${playersChoice}! The computer picked ${computersChoice}'
-  
-  
-   
-   document.getElementById('gameResults').innerHTML = 'theResults'
-    
-    
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="[Your Name]">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bear Ninja Hunter - BIO</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+  <h1> Bear Ninja Hunter </h1>
+  <div id="results"></div>
 
-</script>
-
+  <script src="script.js"></script>
 </body>
 </html>
