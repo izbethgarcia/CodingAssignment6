@@ -14,5 +14,5 @@
   let computersChoice = 'Bear'; 
 
   // Personalized game results//
-  const theResults = `${playerName}, You picked ${playersChoice}! The computer picked ${computersChoice}`;
+  const theResults = `${playerName}, You picked ${playersChoice}! The computer picked ${computersChoice}!`;
   document.getElementById('gameResults').innerHTML = theResults; 
