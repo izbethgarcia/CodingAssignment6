@@ -1,0 +1,18 @@
+ 
+ 
+ //Welcome banner and ask for players name//
+  let playerName = prompt('Welcome to Bear Hunter Ninja! Please enter your name to get started:  ');
+
+  //Greet Player with their name//
+  let greetPlayer = `Hi ${playerName} Let's Play!`;
+  alert(greetPlayer);
+
+  //Ask players choice//
+  let playersChoice = prompt('Who are you: bear, Ninja, or Hunter?');
+
+  //Computers choice//
+  let computersChoice = 'Bear'; 
+
+  // Personalized game results//
+  const theResults = '${playerName}, You picked ${playersChoice}! The computer picked ${computersChoice}';
+  document.getElementById('gameResults').innerHTML = theResults; 
